@@ -1,0 +1,8 @@
+# Default user/ dont show '@MacBook-Pro'
+prompt_context() {
+  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
+    prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
+  fi
+}
+
+PROMPT="$FG[130]$USER%{$reset_color%} ${PROMPT}"
