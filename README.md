@@ -1,4 +1,4 @@
-# Hi there, I'm Jonathan ☕
+# Hi there, I'm Jonathan  ☕
 
 ## I'm a graduate student studying Economics
 
